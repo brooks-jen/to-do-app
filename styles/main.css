@@ -1,0 +1,60 @@
+header {
+margin-top: 100px;
+justify-content: center;
+text-align: center;
+}
+
+body {
+  background: url(../images/tdaheroimage.jpg) center / cover;
+}
+
+h1 {
+  color: hsla(120, 100%, 0%, 0.9);
+  font-weight: bold;
+}
+
+
+label {
+  font-size: 22px;
+  color: #999;
+  position:absolute;
+  left: 5px;
+  top: 10px;
+
+}
+
+input {
+  font-size: 18px;
+  display:block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+input:focus {outline:none;}
+
+
+form {
+  display:block;
+  justify-content: center;
+  text-align: center;
+}
+
+ul {
+  display: block;
+  font-size: 18px;
+  margin:auto;
+}
+
+button {
+  display:block;
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+   header.mdl-layout__header {
+     display: flex;
+   }
+ }
