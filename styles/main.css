@@ -20,7 +20,6 @@ label {
   position:absolute;
   left: 5px;
   top: 10px;
-
 }
 
 input {
@@ -40,18 +39,23 @@ form {
   text-align: center;
 }
 
-ul {
-  display: block;
-  font-size: 18px;
+
+button {
+  justify-content: center;
   margin:auto;
 }
 
-button {
-  display:block;
-  text-align: center;
+.mdl-button {
+  margin: 10px;
 }
 
-
+.mdl-list__item {
+  width: 300px;
+  display: block;
+  justify-content: left;
+  margin: auto;
+  font-size: 24px;
+}
 
 @media screen and (max-width: 1024px) {
    header.mdl-layout__header {

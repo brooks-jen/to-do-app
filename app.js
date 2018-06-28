@@ -11,9 +11,13 @@ function onReady(){
         const NEW_LI = document.createElement('li');
         const CHECKBOX = document.createElement('input');
         CHECKBOX.type = "checkbox";
+        CHECKBOX.className = 'mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect';
+        NEW_LI.className = 'mdl-list__item-primary-content';
 
         const DELETE_BTN = document.createElement('button');
-        DELETE_BTN.textContent = "Delete!";
+        DELETE_BTN.textContent = "done"
+        DELETE_BTN.className = 'mdl-button mdl-js-button mdl-button--raised mdl-button--accent';
+
 
         DELETE_BTN.addEventListener('click', event => {
          toDos = toDos.filter(function(item){
